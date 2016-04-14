@@ -7,6 +7,7 @@ SITENAME = 'Project Astal'
 SITEURL = ''
 
 PATH = 'content'
+OUTPUT_PATH = '../output/'
 
 TIMEZONE = 'Asia/Kolkata'
 
