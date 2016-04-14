@@ -5,11 +5,10 @@ html body h2.info {
   font-weight: lighter;
   text-align: center; }
 html body div.article-list {
+  transition: 0.5s;
   padding: 3%;
   text-align: center; }
   html body div.article-list:hover {
     background-color: rgba(129, 85, 61, 0.1); }
   html body div.article-list p.info {
     text-indent: 0; }
-
-/*# sourceMappingURL=index.css.map */

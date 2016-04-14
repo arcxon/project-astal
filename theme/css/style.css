@@ -31,9 +31,9 @@ html {
     position: fixed;
     top: 90%;
     left: 90%;
-    transition: 0.5s;
     border-radius: 4px; }
     html body div#back-to-top a {
+      transition: 0.5s;
       background-color: #302623;
       color: #3f312d;
       padding: 10px; }
@@ -66,5 +66,3 @@ html {
     html body div.page {
       padding: 14%;
       margin: 2% 5%; } }
-
-/*# sourceMappingURL=style.css.map */
