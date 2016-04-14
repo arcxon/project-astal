@@ -1,17 +1,5 @@
 
-
-// Colors
-$red: #FF6B6B;
-$blue: #59C5FF;
-$green: #48F0B8;
-
-$white: #F0F0F0;
-$light-grey: #C4CBD3;
-$grey: #8798AB;
-$dark-grey: #4D6684;
-$black: #04080B;
-
-// Sepia
+// Sepia colors
 $sepia-extra-light: #ECD2BE;
 $sepia-light: #EFAD69;
 $sepia: #E08D5B;
@@ -77,9 +65,9 @@ html{
             position: fixed;
             top: 90%;
             left: 90%;
-            transition: 0.5s;
             border-radius: 4px;
             a{
+                transition: 0.5s;
                 background-color: lighten($sepia_extra_dark, 5);
                 color: lighten($sepia_extra_dark, 10);
                 padding: 10px;
