@@ -1,0 +1,142 @@
+
+
+// Colors
+$red: #FF6B6B;
+$blue: #59C5FF;
+$green: #48F0B8;
+
+$white: #F0F0F0;
+$light-grey: #C4CBD3;
+$grey: #8798AB;
+$dark-grey: #4D6684;
+$black: #04080B;
+
+// Sepia
+$sepia-extra-light: #ECD2BE;
+$sepia-light: #EFAD69;
+$sepia: #E08D5B;
+$sepia-dark: #81553D;
+$sepia-extra-dark: #211A18;
+
+// Fonts
+$serif-font: "Roboto Slab", Times, serif;
+
+// Responsive
+$mobile: "(orientation: portrait)";
+$tab: "(orientation: landscape) and (max-width: 1200px)";
+
+// Mixins
+@mixin heading {
+    font-weight: normal;
+}
+
+html{
+    font-weight: lighter;
+    font-family: $serif-font;
+    font-size: 1.4em;
+    background-color: $sepia-extra-dark;
+    color: $sepia-extra-light;
+
+    a{
+        text-decoration: none;
+        color: $sepia;
+    }
+
+    body{
+        div.page{
+            margin: 8%;
+            padding: 0 20%;
+
+            h1.title{
+                @include heading;
+                text-align: center;
+            }
+            h2, h3, h4, h5, h6{
+                @include heading;
+            }
+            div.info{
+                font-style: italic;
+                text-align: center;
+                margin-bottom: 10%;
+            }
+            p{
+                margin: 4% 0;
+                line-height: 1.5;
+                text-indent: 2em;
+            }
+        }
+
+        div.back-home{
+            text-align: center;
+            a{
+                color: $sepia-dark;
+            }
+        }
+
+        div#back-to-top{
+            position: fixed;
+            top: 90%;
+            left: 90%;
+            transition: 0.5s;
+            border-radius: 4px;
+            a{
+                background-color: lighten($sepia_extra_dark, 5);
+                color: lighten($sepia_extra_dark, 10);
+                padding: 10px;
+
+                &:hover{
+                    color: $sepia_light;
+                    background-color: lighten($sepia_extra_dark, 15);
+
+                }
+            }
+        }
+
+        footer{
+            font-size: 0.8em;
+            color: $sepia_dark;
+            transition: 0.4s;
+            text-align: center;
+
+            &:hover{
+                color: $sepia;
+                a{
+                    color: $sepia-light;
+                }
+            }
+
+            a{
+                color: $sepia_dark;
+            }
+        }
+    }
+
+}
+
+@media #{ $mobile }{
+    html{
+        body{
+            margin: 0;
+            font-size: 0.8em;
+
+            div.page{
+                padding: 8%;
+                margin: 2%;
+            }
+        }
+    }
+}
+
+@media #{ $tab }{
+    html{
+        body{
+            font-size: 0.9em;
+            margin: 0;
+
+            div.page{
+                padding: 14%;
+                margin: 2% 5%;
+            }
+        }
+    }
+}

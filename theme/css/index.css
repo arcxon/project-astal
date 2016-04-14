@@ -1,0 +1,15 @@
+html body h1.title {
+  font-weight: lighter;
+  font-size: 460%; }
+html body h2.info {
+  font-weight: lighter;
+  text-align: center; }
+html body div.article-list {
+  padding: 3%;
+  text-align: center; }
+  html body div.article-list:hover {
+    background-color: rgba(129, 85, 61, 0.1); }
+  html body div.article-list p.info {
+    text-indent: 0; }
+
+/*# sourceMappingURL=index.css.map */
