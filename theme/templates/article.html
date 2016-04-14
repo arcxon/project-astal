@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }}{%endblock%}
+{% block content %}
+
+    <h1 class="title">{{ article.title }}</h1>
+    <div class="info">{{ article.locale_date }}</div>
+
+    {{ article.content }}
+
+
+    <div class="back-home"><a href="{{ SITEURL }}/index.html">Back To Home</a></div>
+
+{% endblock %}

@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'AdiUltra'
 SITENAME = 'Project Astal'
+SITESUBTITLE = "Raw and Untamed"
 SITEURL = ''
 
 PATH = 'content'
@@ -30,6 +31,8 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 6
+
+THEME = "/home/aditya/projects/arcxon/project-astal/theme"
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

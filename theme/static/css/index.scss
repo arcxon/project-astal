@@ -1,0 +1,29 @@
+
+$sepia-extra-light: #ECD2BE;
+$sepia-light: #EFAD69;
+$sepia: #E08D5B;
+$sepia-dark: #81553D;
+$sepia-extra-dark: #211A18;
+
+html{
+    body{
+        h1.title{
+            font-weight: lighter;
+            font-size: 460%;
+        }
+        h2.info{
+            font-weight: lighter;
+            text-align: center;
+        }
+        div.article-list{
+            padding: 3%;
+            text-align: center;
+            &:hover{
+                background-color: fade-out($sepia-dark, 0.9);
+            }
+            p.info{
+                text-indent: 0;
+            }
+        }
+    }
+}

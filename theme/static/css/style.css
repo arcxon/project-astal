@@ -1,0 +1,68 @@
+html {
+  font-weight: lighter;
+  font-family: "Roboto Slab", Times, serif;
+  font-size: 1.4em;
+  background-color: #211A18;
+  color: #ECD2BE; }
+  html a {
+    text-decoration: none;
+    color: #E08D5B; }
+  html body div.page {
+    margin: 8%;
+    padding: 0 20%; }
+    html body div.page h1.title {
+      font-weight: normal;
+      text-align: center; }
+    html body div.page h2, html body div.page h3, html body div.page h4, html body div.page h5, html body div.page h6 {
+      font-weight: normal; }
+    html body div.page div.info {
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 10%; }
+    html body div.page p {
+      margin: 4% 0;
+      line-height: 1.5;
+      text-indent: 2em; }
+  html body div.back-home {
+    text-align: center; }
+    html body div.back-home a {
+      color: #81553D; }
+  html body div#back-to-top {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    transition: 0.5s;
+    border-radius: 4px; }
+    html body div#back-to-top a {
+      background-color: #302623;
+      color: #3f312d;
+      padding: 10px; }
+      html body div#back-to-top a:hover {
+        color: #EFAD69;
+        background-color: #4d3d38; }
+  html body footer {
+    font-size: 0.8em;
+    color: #81553D;
+    transition: 0.4s;
+    text-align: center; }
+    html body footer:hover {
+      color: #E08D5B; }
+      html body footer:hover a {
+        color: #EFAD69; }
+    html body footer a {
+      color: #81553D; }
+
+@media (orientation: portrait) {
+  html body {
+    margin: 0;
+    font-size: 0.8em; }
+    html body div.page {
+      padding: 8%;
+      margin: 2%; } }
+@media (orientation: landscape) and (max-width: 1200px) {
+  html body {
+    font-size: 0.9em;
+    margin: 0; }
+    html body div.page {
+      padding: 14%;
+      margin: 2% 5%; } }
