@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://adiultra.github.io/project-astal'
+SITEURL = 'http://arcxon.github.io/project-astal'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -18,7 +18,6 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-OUTPUT_PATH = '/home/aditya/projects/arcxon/output/'
 
 # Following items are often useful when publishing
 
